@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Cook For Me</string>
+
+    <string name="login_button">Login</string>
+    <string name="register_button">Register</string>
+    <string name="title_activity_login_page">Sign In</string>
+    <string name="username_input_hint">Email</string>
+    <string name="password_input_hint">Password</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="register_text">Not a member? Register now.</string>
+
+
+    <string name="title_activity_register_page">Register</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_home_page_cook_or_eat">Cook or Eat</string>
+    <string name="title_activity_eat_main_page">Navigation</string>
+    <string name="title_activity_cook_main_page">Navigation</string>
+
+
+    <string name="DrawerOpened">Open</string>
+    <string name="DrawerClosed">Close</string>
+
+    <string name="rating">Rating</string>
+
+
+    <string name="profile_name">John Yuan</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_eater_profile_page">eater_profile_page</string>
+
+    <string name="food_1_name">Homemade Salad with Egg and Bacon Stripe</string>
+    <string name="food_2_description">Chocolate Cake with MM</string>
+    <string name="title_activity_food_1_page">food_1_page</string>
+    <string name="title_activity_spec_food_page">specFood_page</string>
+
+    <string name="recipe_description">Fresh salad topped with crunchy bread and bacon stripes. Ceaser salad dressing, 200g per serving enough for 1 person.</string>
+</resources>

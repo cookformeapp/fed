@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ECEFF1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:id="@+id/row_1"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="165dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/salad_1"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/food_1"
+                    android:padding="1dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Homemade Salad with Egg and Bacon Stripes"
+                      android:textSize="14sp"
+                      android:textStyle="bold"
+                      android:id="@+id/food_1_name"/>
+                  <RatingBar
+                      android:layout_width="80dp"
+                      android:layout_height="wrap_content"
+                      android:isIndicator="true"
+                      android:numStars="5"
+                      android:rating="3.0"
+                      android:stepSize="1.0"
+                      style="@android:style/Widget.Holo.RatingBar.Small"/>
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="4dp"
+                      android:text="150 m"
+                      android:id="@+id/textView"/>
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="10dp"
+                      android:text="$ 5.99"
+                      android:textSize="16sp"
+                      android:layout_marginBottom="15dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:id="@+id/row_2"
+                android:orientation="horizontal"
+                android:elevation="2dp">
+                <ImageView
+                    android:layout_width="165dp"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/pasta_1"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/food_2"
+                    android:padding="1dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <View
+                        style="@style/Divider" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pasta with Parmesan Cheese and Bread"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:id="@+id/food_2_name"/>
+                    <RatingBar
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:rating="4.0"
+                        android:stepSize="1.0"
+                        style="@android:style/Widget.Holo.RatingBar.Small"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="200 m" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="$ 3.49"
+                        android:textSize="16sp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:id="@+id/row_3"
+                android:orientation="horizontal"
+                android:elevation="2dp">
+                <ImageView
+                    android:layout_width="165dp"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/buffalo_wings"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/food_3"
+                    android:padding="1dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <View
+                        style="@style/Divider" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Homemade Buffalo Wings 10 pieces"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:id="@+id/food_3_name"/>
+                    <RatingBar
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:rating="3.2"
+                        android:stepSize="0.1"
+                        style="@android:style/Widget.Holo.RatingBar.Small"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="350 m" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="$ 7.00"
+                        android:textSize="16sp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:id="@+id/row_4"
+                android:orientation="horizontal"
+                android:elevation="2dp">
+                <ImageView
+                    android:layout_width="165dp"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/chicken_noodle_soup"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/food_4"
+                    android:padding="1dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <View
+                        style="@style/Divider" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Homemade Chicken Noodle Soup"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:id="@+id/food_4_name"/>
+                    <RatingBar
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:rating="2.7"
+                        android:stepSize="0.1"
+                        style="@android:style/Widget.Holo.RatingBar.Small"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="500 m"
+                        android:textStyle="italic"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="$ 3.00"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:id="@+id/row_5"
+                android:orientation="horizontal"
+                android:elevation="2dp">
+                <ImageView
+                    android:layout_width="165dp"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/pork_chop_1"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/food_5"
+                    android:padding="1dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <View
+                        style="@style/Divider" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Roasted Pork with Sweet Potato and Green Bean"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:id="@+id/food_5_name"/>
+                    <RatingBar
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:isIndicator="true"
+                        android:numStars="4"
+                        android:rating="2"
+                        android:stepSize="0.1"
+                        style="@android:style/Widget.Holo.RatingBar.Small"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="700 m"
+                        android:textStyle="italic"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="$ 12.00"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:id="@+id/row_6"
+                android:orientation="horizontal"
+                android:elevation="2dp">
+                <ImageView
+                    android:layout_width="165dp"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/cake"
+                    android:adjustViewBounds="true"
+                    android:id="@+id/food_6"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <View
+                        style="@style/Divider" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Chocolate Cake (Large)"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        android:id="@+id/food_6_name"
+                        android:padding="1dp"/>
+                    <RatingBar
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:isIndicator="true"
+                        android:numStars="5"
+                        android:rating="4"
+                        android:stepSize="0.1"
+                        style="@android:style/Widget.Holo.RatingBar.Small"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1 km"
+                        android:textStyle="italic"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="$ 3.00"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
